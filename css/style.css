@@ -1,0 +1,40 @@
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: system-ui;
+	font-size: 25px;
+	max-width: 700px;
+	margin: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+img {
+	width: 100%;
+	max-width: 700px;
+}
+
+p {
+	text-indent: 5px;
+	text-align: justify;
+	max-width: 700px;
+	border-right: 5px solid wheat;
+	border-bottom: 5px solid wheat;
+	padding-right: 8px;
+	border-bottom-right-radius: 15px;
+	}
+
+h1,
+h2, address {
+	text-align: center;
+}
+p::first-letter {
+	font-weight: 500;
+	font-size: 150%;
+	color: tomato;
+	
+}
+a {
+	text-decoration: none;
+	color: tomato;
+}
